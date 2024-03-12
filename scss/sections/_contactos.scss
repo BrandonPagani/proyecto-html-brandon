@@ -1,0 +1,54 @@
+.contactos {
+    text-align:left;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+section {
+    .parrafo-3 {
+        margin: 40px;
+        padding: 20px;
+        text-align:center;
+        font-size: 15px;
+        color: #FFFFFF;
+    }
+    .contactos-link {
+        margin: 40px;
+        padding: 20px;
+        text-align: center;
+        font-size: 40px;
+        color: #FFFFFF;
+    }
+    .social-link a {
+        display: inline-block;
+        min-height: 40px;
+        width: 40px;
+        background-color: rgba(255, 255, 255, 0.2);
+        margin: 0 10px 10px 0;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        color: #FFFFFF;
+        transition: all .5s ease;
+    }
+}
+.img-contac {
+    display: flex;
+    justify-content: space-around;
+    .img-contac-1 {
+        width: 32%;
+        height: 200px;
+    }
+    .img-contac-2 {
+        
+        width: 32%;
+        height: 200px;
+    }
+    .img-contac-3 {
+        width: 32%;
+        height: 200px;
+    } 
+}
+.iframe {
+    display: flex;
+    justify-content: space-around;
+}

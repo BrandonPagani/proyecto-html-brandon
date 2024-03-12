@@ -1,0 +1,47 @@
+.contain {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "CORTE-1 . CORTE-2"
+        ". -CORTES ."
+        "CORTE-3 . CORTE-4";
+    .CORTES {
+        color: #ffffff;
+        grid-area: -CORTES;
+    }
+    .CORTES h2 {
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+    }
+    .CORTES p {
+        text-align: center;
+    }
+    .CORTE-1 {
+        grid-area: CORTE-1;
+    }
+    .CORTE-1 img {
+        width: 100%;
+    }
+    .CORTE-2 {
+        grid-area: CORTE-2;
+    }
+    .CORTE-2 img {
+        width: 100%;
+    }
+    .CORTE-3 {
+        grid-area: CORTE-3;
+    }
+    .CORTE-3 img {
+        width: 100%;
+    }
+    .CORTE-4 {
+        grid-area: CORTE-4;
+    }
+    .CORTE-4 img {
+        width: 100%;
+    }
+}
