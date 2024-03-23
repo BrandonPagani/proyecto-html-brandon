@@ -4,20 +4,57 @@
     color: #FFFFFF;
     text-align: center;
 }
-.caja-1 {
-    background-color: #00c3ff;
-    width: 300px;
-    height: 300px;
-    margin: 20px;
-    padding: 20px;
-    font-size: none;
+.section-nosotros{
     display: flex;
-    .parrafo-3 {
-        margin: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+    .caja-1 {
+        background-color: #00c3ff;
+        width: 300px;
+        height: 300px;
+        margin: 20px;
         padding: 20px;
-        text-align:center;
-        font-size: 15px;
-        color: #FFFFFF;
+        font-size: none;
+        display: flex;
+        .parrafo-3 {
+            margin: 40px;
+            padding: 20px;
+            text-align:center;
+            font-size: 15px;
+            color: #01011b;
+        }
+    }
+    .caja-2 {
+        background-color: #00c3ff;
+        width: 300px;
+        height: 300px;
+        margin: 20px;
+        padding: 20px;
+        font-size: none;
+        display: flex;
+        .parrafo-3 {
+            margin: 40px;
+            padding: 20px;
+            text-align:center;
+            font-size: 15px;
+            color: #01011b;
+        }
+    }
+    .caja-3 {
+        background-color: #00c3ff;
+        width: 300px;
+        height: 300px;
+        margin: 20px;
+        padding: 20px;
+        font-size: none;
+        display: flex;
+        .parrafo-3 {
+            margin: 40px;
+            padding: 20px;
+            text-align:center;
+            font-size: 15px;
+            color: #01011b;
+        }
     }
 }
 .button {

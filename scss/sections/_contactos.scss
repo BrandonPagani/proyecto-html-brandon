@@ -34,21 +34,22 @@ section {
 .img-contac {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     .img-contac-1 {
-        width: 32%;
+        width: 400px;
         height: 200px;
     }
     .img-contac-2 {
         
-        width: 32%;
+        width: 400px;
         height: 200px;
     }
     .img-contac-3 {
-        width: 32%;
+        width: 400px;
         height: 200px;
     } 
 }
 .iframe {
     display: flex;
     justify-content: space-around;
-}
+} 

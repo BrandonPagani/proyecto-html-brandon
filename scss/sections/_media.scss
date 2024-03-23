@@ -1,32 +1,119 @@
-@media(max-width:991px) {
-    .menu {
-        padding: 30px;
+.resolucion {
+  width: 99%;
+  text-align: center;
+}
+
+@media (max-width: 400px) {
+  main {
+    .img-index {
+      width: 100%;
     }
-    .menu label {
-        display: initial;
-    }
+  }
+}
+
+@media (max-width: 580px) {
+  header {
     .back {
-        padding: 40px 0;
+      height: 155px;
+      .menu-1{
+        .navbar {
+        ul {
+          display: flex;
+          flex-direction: column;
+          li {
+            margin: 0;
+            padding: 0;
+            a {
+              padding: 5px;
+            }
+          }
+        }
+      }
+      }
+      
     }
-    .menu .navbar {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background-color: #2a394f;
-        display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  header {
+    .back {
+      .menu-1 {
+        .logo {
+        }
+      }
+
+      .navbar {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        position: relative;
+        padding: 0 var(--padding_left_right);
+      }
     }
-    .menu .navbar ul li {
-        width: 100%;
+  }
+}
+
+.footer-row {
+  text-align: center;
+  .footer-link {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 768px) {
+  header {
+    .back {
+      .menu-1 {
+        .logo {
+        }
+      }
+      .navbar {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        position: relative;
+        padding: 0 var(--padding_left_right);
+      }
     }
-    #menu:checked ~ .navbar {
-        display: initial;
+  }
+}
+.footer-row {
+  text-align: center;
+  .footer-link {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 991px) {
+  header {
+    .back {
+      .menu-1 {
+        .logo {
+        }
+        .navbar {
+          height: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-wrap: wrap;
+          position: relative;
+          padding: 0 var(--padding_left_right);
+        }
+      }
     }
-    .footer-row{
-        text-align: center;
-    }
-    .footer-link {
-        width: 100%;
-        margin-bottom: 30px;
-    }
+  }
+}
+
+.footer-row {
+  text-align: center;
+  .footer-link {
+    width: 100%;
+    margin-bottom: 30px;
+  }
 }
